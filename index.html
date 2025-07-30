@@ -1,24 +1,202 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook Intro Sesión 3: ¡Tu Primera Creación con IA!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
-</body>
 
+    <header>
+        <h1><span class="book-icon">💡</span> <strong>Playbook Intro Sesión 3: ¡Tu Primera Creación con IA!</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+             <div class="sidebar-info">
+                <p>💡 Esta es la sesión "mágica". El objetivo es que los alumnos experimenten el flujo completo de Vibe Coding por primera vez.</p>
+                <p>⏱️ El Brain Spark es el núcleo. Asegúrese de que todos logren hacer que su robot se mueva al final.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+            
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo y Conexión ⏰ 3 minutos</h2>
+                <p>Introducción energética, conectando las sesiones de configuración con la creación de hoy.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: ¡Llegó la hora de crear! ⏰ 3 minutos</h3>
+                            <p>Da la bienvenida y establece el tono: hoy se pone en práctica todo lo configurado.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Genios, llegó el momento que todos esperábamos! Ya tienen su pasaporte Gnius. Ya tienen su taller digital con todas las cuentas listas. Hoy... ¡damos vida a la tecnología! Hoy van a tener su primera experiencia como directores de soluciones, colaborando con Xolo para crear algo en el mundo físico. ¿Listos para su primera creación?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: I Can Statement + Ejemplificación ⏰ 7 minutos</h2>
+                <p>Presentar el objetivo de la clase y mostrar un ejemplo tangible de lo que van a lograr.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Presentación del Proyecto del Profesor ⏰ 3 minutos</h3>
+                            <p>Muestra tu proyecto de ejemplo ya cargado y funcionando: un Cutebot que avanza y se detiene.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Para nuestra primera creación, vamos a usar este kit: el robot Cutebot con su cerebro, la Micro:bit. Para que vean lo que vamos a lograr, les mostraré un ejemplo. (Muestra el Cutebot avanzando por un par de segundos y luego deteniéndose). ¿Vieron eso? Un movimiento simple, pero poderoso. Yo le di la idea a Xolo, Xolo me dio el plan, y yo construí ese plan para que el robot cobrara vida. Eso es exactamente lo que harán ustedes.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: "I Can Statement" ⏰ 4 minutos</h3>
+                            <p>Presenta formalmente el "I Can Statement", conectando la idea, el plan de la IA y la creación final.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Hoy vamos a aprender este flujo de trabajo creativo. Al final de la clase, podrán decir con orgullo: '<strong>Yo puedo darle una instrucción a Xolo para crear un plan que haga que mi Cutebot avance y se detenga, y puedo construir ese plan en MakeCode</strong>.' Este es el corazón de nuestro método: Vibe Coding. ¡Vamos a darle vida a esos robots!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: AI GYM: El Flujo de Vibe Coding ⏰ 10 minutos</h2>
+                <p>Los alumnos usan a Xolo para aprender los conceptos y obtener el plan de acción (GCS), entendiendo su estructura.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Pidiendo el Plan a Xolo ⏰ 5 minutos</h3>
+                            <p>Guía a los alumnos para que le pidan a Xolo el plan (GCS) para su primera creación.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Al A.I. GYM! Abran el chat con Xolo. Ahora, van a ser directores. Díganle claramente su idea. Escriban esta instrucción precisa: '<strong>Xolo, mi idea (vibe) es que el Cutebot avance por 2 segundos y luego se detenga. Dame el plan (GCS) para construirlo en MakeCode.</strong>'</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Leyendo e Interpretando el Plan (GCS) ⏰ 5 minutos</h3>
+                            <p>Proyecta y analiza la respuesta de Xolo, explicando las partes del Gnius Code Spark (GCS).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Fíjense en la respuesta. Xolo no les da el código final, les da un 'plan' en un lenguaje especial llamado Gnius Code Spark o GCS. Vamos a leerlo juntos. (Proyecta el GCS).</p>
+                                <pre class="dialogue assistant" style="color: #d32f2f;">
+POR SIEMPRE:
+    // El Cutebot avanza hacia adelante
+    cutebot_avanzar(50)
+    ESPERAR 2 segundos
+    // El Cutebot se detiene
+    cutebot_detener()
+    ESPERAR 2 segundos
+                                </pre>
+                                <p class="dialogue assistant">`POR SIEMPRE` es un bucle, significa que repetirá estas acciones una y otra vez. `cutebot_avanzar(50)` es el comando para moverse, y 50 es la velocidad. `ESPERAR 2 segundos` es una pausa. `cutebot_detener()` es el comando para parar. Este plan es su mapa. Cada línea es una instrucción que ustedes deben encontrar y armar en MakeCode.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+             <div class="activity-card" id="activity-4">
+                 <h2>⚡ Actividad 4: Brain Spark: ¡Tu Turno de Crear! ⏰ 15 minutos</h2>
+                <p>Poner en práctica el flujo de Vibe Coding: traducir el GCS de Xolo a bloques en MakeCode y probarlo.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Del Plan a los Bloques ⏰ 10 minutes</h3>
+                            <p>Guía a los alumnos para que abran MakeCode, añadan la extensión de Cutebot y traduzcan cada línea de su GCS a un bloque de código.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Manos a la obra, ingenieros! Abran MakeCode en sus cuentas. Creen un nuevo proyecto. Lo primero es añadir las 'herramientas' para Cutebot: en Extensiones, busquen y añadan 'Cutebot'. Ahora, miren su plan de Xolo y el menú de bloques de Cutebot. ¡Es hora de traducir! Si el plan dice `cutebot_avanzar(50)`, busquen el bloque que hace eso y arrástrenlo dentro del bucle `por siempre`. Hagan lo mismo con cada línea del plan.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Prueba y Depuración ⏰ 5 minutos</h3>
+                            <p>Indica a los alumnos que prueben primero en el simulador y luego descarguen el código al robot real.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                 <p class="dialogue assistant">¿Listos? Prueben en el simulador de MakeCode. Si funciona, ¡es hora de la prueba final! Conecten su Micro:bit, descarguen el código, colóquenla en su Cutebot, enciéndanlo y... ¡vean su idea cobrar vida! Si no funciona, no se preocupen. Ser un creador es también ser un detective de errores. Repasen su plan y su código para encontrar la falla.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gnius STORM ⏰ 5 minutos</h2>
+                <p>Los alumnos comparten sus creaciones y reflexionan sobre la experiencia de co-creación con IA.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Showcase y Reflexión Final ⏰ 5 minutos</h3>
+                            <p>Facilita un breve "Show & Tell" y cierra la sesión reforzando el concepto de Vibe Coding y la colaboración Humano-IA.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo, creadores! ¡Miren a su alrededor! ¡Hay robots moviéndose por todas partes gracias a sus ideas! Levanten la mano, ¿quién logró que su Cutebot se moviera? ¡Fantástico!</p>
+                                <p class="dialogue assistant">Hoy han hecho algo increíble. No solo han programado. Han experimentado el futuro de la creación. Tuvieron una <strong>idea</strong> (su 'vibe'), la comunicaron a una IA, recibieron un <strong>plan</strong> de un experto (el GCS de Xolo), y ustedes, como <strong>directores</strong>, leyeron ese plan y lo hicieron realidad. Este ciclo es el corazón de Vibe Coding. ¡Felicidades por su primera creación y bienvenidos oficialmente a Gnius Club!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
